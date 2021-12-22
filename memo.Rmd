@@ -1,0 +1,239 @@
+---
+title: "Explanatory memo"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(eval = FALSE, include = TRUE)
+library(dplyr)
+```
+
+
+In this memo file, the steps for loading and checking the data and to analyse each experiment in the study are described step by step. This study holds three experiments where similar steps and data analyses are used. Nevertheless, we describe each experiment separately. All data preparations and cleanings are performed in R statistical software.  
+
+## Experiment 1
+
+### 1. Seed
+
+First a seed is set to enable exact replication of the analyses. 
+
+```{r}
+seed <- 432973; set.seed(seed)
+
+options(
+  tibble.print_max = 1000
+)
+
+```
+
+
+### 2. Install and load packages
+
+Install and load the packages by running the code in the following `.R` files:
+
+```{r}
+"exp1_install_packages.R"
+"exp1_load_packages.R"
+```
+
+### 3. Load public data
+
+The data for experiment 1 in stored in the following `.rdata` file. An additional copy of the data in `.sav` format can be found as well.
+
+```{r}
+"experiment1.rdata"
+"experiment1.sav"
+
+```
+
+### 4. Load variable labels and check
+
+
+
+The variable labels and value labels are stored in an excel file. A summary for the loaded `.rdata` is stored in a `.txt` file. 
+
+```{r}
+"codebook_experiment1.xlsx"
+"data_summary_experiment1.txt"
+
+```
+
+
+
+### 5. Statistical analyses
+
+The statistical analyses are all performed with R-code. The results are stored by using a separate `.R` file. 
+
+```{r}
+"exp1_statistical_analyses.R"
+"exp1_save_output.R"
+
+```
+ 
+ 
+### 6. Output files
+ 
+The "exp1_save_output.R" file, stores the output as `.txt` files and as `.rdata` files. The `.txt` files with the output are listed below: 
+
+```{r}
+"exp1_descriptive_statistics_constructs.txt"
+"exp1_frequencies_behaviour.txt"
+"exp1_frequencies_VHS.txt"
+"exp1_internal_consistency_constructs.txt"
+"exp1_regression_models.txt"
+"exp1_summary_by_group.txt"
+"exp1_wilcox_behaviour.txt"
+
+```
+
+
+
+## Experiment 2
+
+
+# 1. seed
+```{r}
+seed <- 648731; set.seed(seed)
+
+options(
+  tibble.print_max = 1000
+)
+```
+
+
+### 2. Install and load packages
+
+Install and load the packages by running the code in the following `.R` files:
+
+```{r}
+"exp2_install_packages.R"
+"exp2_load_packages.R"
+```
+
+### 3. Load public data
+
+The data for experiment 2 in stored in the following `.rdata` file. An additional copy of the data in `.sav` format can be found as well.
+
+```{r}
+"experiment1.rdata"
+"experiment1.sav"
+
+```
+
+### 4. Load variable labels and check
+
+
+
+The variable labels and value labels are stored in an excel file. A summary for the loaded `.rdata` is stored in a `.txt` file. 
+
+```{r}
+"codebook_experiment1.xlsx"
+"data_summary_experiment1.txt"
+
+```
+
+
+
+### 5. Statistical analyses
+
+The statistical analyses are all performed with R-code. The results are stored by using a separate `.R` file. 
+
+```{r}
+"exp2_statistical_analyses.R"
+"exp2_save_output.R"
+
+```
+ 
+ 
+### 6. Output files
+ 
+The "exp2_save_output.R" file, stores the output as `.txt` files and as `.rdata` files. The `.txt` files with the output are listed below: 
+
+```{r}
+"exp2_descriptive_statistics_constructs.txt"
+"exp2_frequencies_behaviour.txt"
+"exp2_frequencies_VHS.txt"
+"exp2_internal_consistency_constructs.txt"
+"exp2_regression_models.txt"
+"exp2_summary_by_group.txt"
+"exp2_wilcox_behaviour.txt"
+
+```
+
+
+
+
+## Experiment 3
+
+
+# 1. seed
+```{r}
+seed <- 942165; set.seed(seed)
+
+options(
+  tibble.print_max = 1000
+)
+```
+
+
+
+### 2. Install and load packages
+
+Install and load the packages by running the code in the following `.R` files:
+
+```{r}
+"exp3_install_packages.R"
+"exp3_load_packages.R"
+```
+
+### 3. Load public data
+
+The data for experiment 3 in stored in the following `.rdata` file. An additional copy of the data in `.sav` format can be found as well.
+
+```{r}
+"experiment1.rdata"
+"experiment1.sav"
+
+```
+
+### 4. Load variable labels and check
+
+
+
+The variable labels and value labels are stored in an excel file. A summary for the loaded `.rdata` is stored in a `.txt` file. 
+
+```{r}
+"codebook_experiment1.xlsx"
+"data_summary_experiment1.txt"
+
+```
+
+
+
+### 5. Statistical analyses
+
+The statistical analyses are all performed with R-code. The results are stored by using a separate `.R` file. 
+
+```{r}
+"exp3_statistical_analyses.R"
+"exp3_save_output.R"
+
+```
+ 
+ 
+### 6. Output files
+ 
+The "exp3_save_output.R" file, stores the output as `.txt` files and as `.rdata` files. The `.txt` files with the output are listed below: 
+
+```{r}
+"exp3_descriptive_statistics_constructs.txt"
+"exp3_frequencies_behaviour.txt"
+"exp3_frequencies_VHS.txt"
+"exp3_internal_consistency_constructs.txt"
+"exp3_regression_models.txt"
+"exp3_summary_by_group.txt"
+"exp3_wilcox_behaviour.txt"
+
+```
+
+

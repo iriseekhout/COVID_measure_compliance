@@ -1,0 +1,37 @@
+
+--------------------------------------------------------------------------------
+
+EXPERIMENT 3
+
+--------------------------------------------------------------------------------
+
+1. Wash my hands regularly (20 sec.) with soap and water 
+
+2. Always sneezing or coughing in my elbow 
+
+3. Always keep 1.5 meters away from other people 
+
+4. Avoid people who are vulnerable 
+
+5. Work from home as much as possible 
+
+6. Avoid crowds 
+
+7. Use paper tissues 
+
+     variable      estimate statistic p.value      conf.low    conf.high
+1 behaviour_1 -1.186873e-05   22463.0    0.82 -4.091973e-05 1.965463e-05
+2 behaviour_2 -3.885568e-06   22552.0    0.88 -3.176858e-05 4.207206e-05
+3 behaviour_3  6.902290e-05   23652.0    0.44 -5.579573e-05 2.836218e-06
+4 behaviour_4  4.493277e-06   22859.0    0.92 -5.869253e-05 4.178625e-05
+5 behaviour_5  4.587508e-05   23531.0    0.51 -3.967817e-05 2.846585e-05
+6 behaviour_6  0.000000e+00   24313.5    0.19 -9.800688e-06 2.398193e-05
+7 behaviour_7  3.597143e-05   23256.0    0.66 -4.153031e-05 4.502231e-05
+                                             method alternative
+1 Wilcoxon rank sum test with continuity correction   two.sided
+2 Wilcoxon rank sum test with continuity correction   two.sided
+3 Wilcoxon rank sum test with continuity correction   two.sided
+4 Wilcoxon rank sum test with continuity correction   two.sided
+5 Wilcoxon rank sum test with continuity correction   two.sided
+6 Wilcoxon rank sum test with continuity correction   two.sided
+7 Wilcoxon rank sum test with continuity correction   two.sided

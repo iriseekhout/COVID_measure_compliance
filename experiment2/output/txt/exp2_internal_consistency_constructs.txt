@@ -1,0 +1,212 @@
+
+--------------------------------------------------------------------------------
+
+EXPERIMENT 2
+
+--------------------------------------------------------------------------------
+Self-efficacy T0 
+
+Reliability analysis   
+Call: psych::alpha(x = .)
+
+  raw_alpha std.alpha G6(smc) average_r S/N   ase mean   sd median_r
+      0.71      0.73    0.73      0.28 2.7 0.019    4 0.75     0.29
+
+ lower alpha upper     95% confidence boundaries
+0.67 0.71 0.74 
+
+ Reliability if an item is dropped:
+       raw_alpha std.alpha G6(smc) average_r S/N alpha se var.r med.r
+SE_1_0      0.66      0.68    0.68      0.26 2.2    0.021 0.018  0.29
+SE_2_0      0.68      0.71    0.71      0.29 2.4    0.020 0.022  0.29
+SE_3_0      0.63      0.66    0.66      0.24 1.9    0.024 0.021  0.28
+SE_4_0      0.68      0.71    0.71      0.29 2.5    0.021 0.024  0.29
+SE_5_0      0.73      0.73    0.72      0.31 2.7    0.017 0.015  0.29
+SE_6_0      0.64      0.67    0.67      0.25 2.0    0.023 0.022  0.29
+SE_7_0      0.69      0.71    0.70      0.29 2.4    0.020 0.018  0.29
+
+ Item statistics 
+         n raw.r std.r r.cor r.drop mean   sd
+SE_1_0 592  0.63  0.66  0.60   0.46  4.1 1.16
+SE_2_0 592  0.53  0.58  0.47   0.38  4.4 0.98
+SE_3_0 592  0.73  0.74  0.70   0.59  3.5 1.21
+SE_4_0 592  0.58  0.56  0.44   0.39  4.1 1.22
+SE_5_0 592  0.57  0.49  0.36   0.29  3.3 1.73
+SE_6_0 592  0.70  0.71  0.65   0.57  4.1 1.07
+SE_7_0 592  0.55  0.58  0.48   0.36  4.3 1.23
+
+Non missing response frequency for each item
+          1    2    3    4    5 miss
+SE_1_0 0.06 0.07 0.06 0.29 0.52    0
+SE_2_0 0.03 0.05 0.05 0.28 0.59    0
+SE_3_0 0.08 0.17 0.11 0.44 0.20    0
+SE_4_0 0.07 0.06 0.10 0.24 0.53    0
+SE_5_0 0.29 0.06 0.11 0.09 0.44    0
+SE_6_0 0.04 0.05 0.10 0.33 0.47    0
+SE_7_0 0.07 0.04 0.13 0.09 0.67    0
+
+ Intention T0 
+
+Reliability analysis   
+Call: psych::alpha(x = .)
+
+  raw_alpha std.alpha G6(smc) average_r S/N   ase mean   sd median_r
+       0.8      0.82    0.82      0.39 4.4 0.013    4 0.86     0.41
+
+ lower alpha upper     95% confidence boundaries
+0.78 0.8 0.82 
+
+ Reliability if an item is dropped:
+        raw_alpha std.alpha G6(smc) average_r S/N alpha se var.r med.r
+INT_1_0      0.76      0.78    0.77      0.37 3.5    0.015 0.019  0.41
+INT_2_0      0.78      0.79    0.79      0.39 3.8    0.014 0.022  0.41
+INT_3_0      0.74      0.76    0.76      0.35 3.2    0.017 0.021  0.38
+INT_4_0      0.78      0.81    0.81      0.41 4.2    0.014 0.023  0.43
+INT_5_0      0.81      0.82    0.81      0.43 4.5    0.012 0.016  0.44
+INT_6_0      0.75      0.77    0.77      0.36 3.4    0.016 0.022  0.41
+INT_7_0      0.79      0.81    0.80      0.41 4.2    0.013 0.019  0.42
+
+ Item statistics 
+          n raw.r std.r r.cor r.drop mean   sd
+INT_1_0 591  0.71  0.74  0.71   0.60  4.3 1.11
+INT_2_0 591  0.65  0.69  0.63   0.54  4.5 0.96
+INT_3_0 592  0.81  0.80  0.78   0.71  3.8 1.33
+INT_4_0 591  0.64  0.61  0.51   0.48  4.0 1.28
+INT_5_0 587  0.64  0.57  0.46   0.41  3.3 1.75
+INT_6_0 591  0.78  0.78  0.75   0.68  4.1 1.18
+INT_7_0 592  0.59  0.62  0.53   0.44  4.3 1.21
+
+Non missing response frequency for each item
+           1    2    3    4    5 miss
+INT_1_0 0.05 0.06 0.04 0.22 0.64 0.00
+INT_2_0 0.04 0.03 0.04 0.19 0.70 0.00
+INT_3_0 0.08 0.15 0.07 0.30 0.39 0.00
+INT_4_0 0.07 0.09 0.10 0.22 0.52 0.00
+INT_5_0 0.31 0.05 0.08 0.12 0.45 0.01
+INT_6_0 0.07 0.06 0.07 0.31 0.49 0.00
+INT_7_0 0.07 0.03 0.09 0.15 0.66 0.00
+
+ perceived risk (self) T0 
+          
+ 0.7472458
+
+ perceived vulnerability (others) T0 
+
+Reliability analysis   
+Call: psych::alpha(x = .)
+
+  raw_alpha std.alpha G6(smc) average_r S/N   ase mean   sd median_r
+      0.82      0.81     0.8      0.47 4.4 0.012  3.4 0.73     0.48
+
+ lower alpha upper     95% confidence boundaries
+0.79 0.82 0.84 
+
+ Reliability if an item is dropped:
+                raw_alpha std.alpha G6(smc) average_r S/N alpha se  var.r med.r
+kwets_groepen_1      0.77      0.77    0.73      0.45 3.3    0.015 0.0145  0.43
+kwets_groepen_2      0.76      0.77    0.72      0.45 3.3    0.015 0.0049  0.44
+kwets_groepen_3      0.78      0.78    0.73      0.46 3.5    0.015 0.0090  0.50
+kwets_groepen_4      0.81      0.81    0.78      0.52 4.3    0.013 0.0058  0.51
+kwets_groepen_5      0.77      0.77    0.75      0.46 3.4    0.015 0.0138  0.46
+
+ Item statistics 
+                  n raw.r std.r r.cor r.drop mean   sd
+kwets_groepen_1 592  0.80  0.79  0.72   0.64  3.5 1.09
+kwets_groepen_2 592  0.80  0.79  0.73   0.65  2.8 1.03
+kwets_groepen_3 592  0.77  0.76  0.69   0.62  3.0 0.98
+kwets_groepen_4 592  0.65  0.68  0.55   0.49  4.6 0.82
+kwets_groepen_5 592  0.77  0.78  0.70   0.64  3.3 0.89
+
+Non missing response frequency for each item
+                   1    2    3    4    5 miss
+kwets_groepen_1 0.06 0.12 0.21 0.44 0.17    0
+kwets_groepen_2 0.12 0.27 0.35 0.23 0.03    0
+kwets_groepen_3 0.09 0.18 0.45 0.23 0.04    0
+kwets_groepen_4 0.02 0.02 0.07 0.20 0.70    0
+kwets_groepen_5 0.05 0.10 0.43 0.37 0.06    0
+
+ response efficacy T0 
+          
+ 0.8829772
+
+ behaviour index T1 
+
+Reliability analysis   
+Call: psych::alpha(x = .)
+
+  raw_alpha std.alpha G6(smc) average_r S/N   ase mean   sd median_r
+       0.7      0.76    0.75      0.31 3.1 0.019  4.1 0.68     0.34
+
+ lower alpha upper     95% confidence boundaries
+0.66 0.7 0.74 
+
+ Reliability if an item is dropped:
+           raw_alpha std.alpha G6(smc) average_r S/N alpha se  var.r med.r
+Gedrag_2_1      0.66      0.72    0.70      0.30 2.5    0.022 0.0167  0.34
+Gedrag_2_2      0.66      0.73    0.72      0.31 2.7    0.022 0.0189  0.34
+Gedrag_2_3      0.64      0.70    0.68      0.28 2.3    0.023 0.0165  0.34
+Gedrag_2_4      0.66      0.73    0.72      0.31 2.7    0.023 0.0205  0.34
+Gedrag_2_5      0.75      0.77    0.75      0.36 3.3    0.016 0.0083  0.36
+Gedrag_2_6      0.63      0.69    0.68      0.27 2.3    0.024 0.0168  0.30
+Gedrag_2_7      0.70      0.75    0.73      0.33 3.0    0.020 0.0151  0.36
+
+ Item statistics 
+             n raw.r std.r r.cor r.drop mean   sd
+Gedrag_2_1 447  0.62  0.67  0.60   0.48  4.1 0.92
+Gedrag_2_2 447  0.59  0.63  0.54   0.44  4.4 0.93
+Gedrag_2_3 447  0.70  0.74  0.70   0.59  4.0 0.80
+Gedrag_2_4 447  0.63  0.63  0.54   0.47  4.2 1.02
+Gedrag_2_5 447  0.58  0.47  0.34   0.26  3.5 1.71
+Gedrag_2_6 447  0.72  0.75  0.71   0.61  4.2 0.91
+Gedrag_2_7 447  0.58  0.56  0.44   0.33  4.1 1.35
+
+Non missing response frequency for each item
+              1    2    3    4    5 miss
+Gedrag_2_1 0.02 0.04 0.13 0.44 0.37 0.24
+Gedrag_2_2 0.03 0.02 0.07 0.29 0.59 0.24
+Gedrag_2_3 0.01 0.03 0.15 0.55 0.26 0.24
+Gedrag_2_4 0.04 0.03 0.11 0.36 0.45 0.24
+Gedrag_2_5 0.27 0.04 0.07 0.14 0.48 0.24
+Gedrag_2_6 0.03 0.02 0.12 0.37 0.47 0.24
+Gedrag_2_7 0.11 0.03 0.10 0.16 0.60 0.24
+
+ Self-efficacy T1 
+
+Reliability analysis   
+Call: psych::alpha(x = .)
+
+  raw_alpha std.alpha G6(smc) average_r S/N   ase mean   sd median_r
+      0.72      0.75    0.76       0.3   3 0.018    4 0.73     0.31
+
+ lower alpha upper     95% confidence boundaries
+0.68 0.72 0.75 
+
+ Reliability if an item is dropped:
+       raw_alpha std.alpha G6(smc) average_r S/N alpha se var.r med.r
+SE_1_1      0.67      0.70    0.70      0.28 2.4    0.021 0.020  0.27
+SE_2_1      0.69      0.72    0.72      0.30 2.6    0.020 0.023  0.32
+SE_3_1      0.65      0.69    0.69      0.27 2.2    0.023 0.020  0.31
+SE_4_1      0.67      0.72    0.72      0.30 2.5    0.022 0.026  0.31
+SE_5_1      0.76      0.77    0.76      0.35 3.3    0.015 0.012  0.37
+SE_6_1      0.66      0.69    0.69      0.27 2.3    0.022 0.021  0.26
+SE_7_1      0.70      0.73    0.73      0.31 2.8    0.019 0.021  0.31
+
+ Item statistics 
+         n raw.r std.r r.cor r.drop mean   sd
+SE_1_1 447  0.66  0.69  0.64   0.51  4.3 1.08
+SE_2_1 447  0.58  0.62  0.53   0.43  4.4 0.99
+SE_3_1 447  0.71  0.72  0.69   0.57  3.6 1.11
+SE_4_1 447  0.66  0.64  0.56   0.50  4.1 1.15
+SE_5_1 447  0.55  0.45  0.30   0.24  3.4 1.73
+SE_6_1 447  0.69  0.72  0.67   0.56  4.2 0.98
+SE_7_1 447  0.56  0.58  0.47   0.37  4.3 1.18
+
+Non missing response frequency for each item
+          1    2    3    4    5 miss
+SE_1_1 0.03 0.08 0.06 0.23 0.60 0.24
+SE_2_1 0.04 0.03 0.05 0.23 0.65 0.24
+SE_3_1 0.05 0.16 0.14 0.47 0.19 0.24
+SE_4_1 0.05 0.07 0.10 0.31 0.47 0.24
+SE_5_1 0.28 0.05 0.08 0.12 0.47 0.24
+SE_6_1 0.03 0.04 0.11 0.39 0.44 0.24
+SE_7_1 0.06 0.04 0.10 0.13 0.67 0.24

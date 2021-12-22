@@ -1,0 +1,74 @@
+
+--------------------------------------------------------------------------------
+EXPERIMENT 1
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+CONTINUOUS VARIABLES
+--------------------------------------------------------------------------------
+  group variable   n     m    sd mdn iqr25 iqr75
+1     1      age 181 42.96 13.77  39    34    55
+2     2      age 243 41.82 12.73  38    34    49
+
+
+  estimate estimate1 estimate2 statistic   p.value parameter  conf.low conf.high            method
+1 1.138281  42.96133  41.82305 0.8795238 0.3796179       422 -1.405603  3.682164 Two Sample t-test
+  alternative
+1   two.sided
+
+
+
+--------------------------------------------------------------------------------
+CATEGORICAL VARIABLES
+--------------------------------------------------------------------------------
+            variable value n_1 pct_1 n_2 pct_2
+1                sex     1 154 85.08 190 78.19
+2                sex     2  27 14.92  53 21.81
+3  educational_level     1  35 19.44  40 16.46
+4  educational_level     2  81 45.00  89 36.63
+5  educational_level     3  64 35.56 114 46.91
+6  educational_level    NA   1    NA  NA    NA
+7   country_of_birth     1 173 95.58 234 96.30
+8   country_of_birth     2   8  4.42   9  3.70
+9               kids     1  69 38.12  95 39.26
+10              kids     2 112 61.88 147 60.74
+11              kids    NA  NA    NA   1    NA
+12          infected     1  38 20.99  67 27.57
+13          infected     2   1  0.55   2  0.82
+14          infected     3  25 13.81  53 21.81
+15          infected     4 112 61.88 116 47.74
+16          infected     5   5  2.76   5  2.06
+17           contact     1  31 17.13  56 23.05
+18           contact     2  67 37.02  82 33.74
+19           contact     3  83 45.86 105 43.21
+20              risk     1 120 66.30 150 61.73
+21              risk     2  61 33.70  93 38.27
+22     works_in_care     1  42 23.20  57 23.46
+23     works_in_care     2 139 76.80 186 76.54
+24           serious     3  NA    NA   1  0.53
+25           serious     4  12  8.05  20 10.53
+26           serious     5 137 91.95 169 88.95
+27           serious    NA  32    NA  53    NA
+
+
+          variable statistic p.value parameter
+1              sex     2.786   0.095         1
+2 country_of_birth     0.015   0.903         1
+3             kids     0.019   0.892         1
+4         infected     9.604   0.046        NA
+5          contact     2.251   0.325         2
+6             risk     0.750   0.387         1
+7    works_in_care     0.000   1.000         1
+                                                                           method
+1                    Pearson's Chi-squared test with Yates' continuity correction
+2                    Pearson's Chi-squared test with Yates' continuity correction
+3                    Pearson's Chi-squared test with Yates' continuity correction
+4 Pearson's Chi-squared test with simulated p-value\n\t (based on 2000 replicates)
+5                                                      Pearson's Chi-squared test
+6                    Pearson's Chi-squared test with Yates' continuity correction
+7                    Pearson's Chi-squared test with Yates' continuity correction
+
+
+   variable statistic p.value                                            method alternative
+1 education   19448.5   0.035 Wilcoxon rank sum test with continuity correction   two.sided
+2   serious   14585.5   0.350 Wilcoxon rank sum test with continuity correction   two.sided

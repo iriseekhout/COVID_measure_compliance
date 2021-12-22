@@ -1,0 +1,144 @@
+ Toestemming_1    Leeftijd        Geslacht       Geslacht_b     Geboorteland   Geboorteland_text 
+ Min.   :1     Min.   :18.00   Min.   :1.000   Min.   :1.000   Min.   :1.000   Length:576        
+ 1st Qu.:1     1st Qu.:33.00   1st Qu.:1.000   1st Qu.:1.000   1st Qu.:1.000   Class :character  
+ Median :1     Median :38.00   Median :1.000   Median :1.000   Median :1.000   Mode  :character  
+ Mean   :1     Mean   :39.21   Mean   :1.222   Mean   :1.331   Mean   :1.363                     
+ 3rd Qu.:1     3rd Qu.:43.00   3rd Qu.:1.000   3rd Qu.:2.000   3rd Qu.:1.000                     
+ Max.   :1     Max.   :80.00   Max.   :2.000   Max.   :4.000   Max.   :7.000                     
+                               NA's   :495     NA's   :81                                        
+   Opleiding     Opleiding_text      Werksituatie     Werk_zorg        Kinderen    
+ Min.   :2.000   Length:576         Min.   :1.000   Min.   :1.000   Min.   :1.000  
+ 1st Qu.:5.000   Class :character   1st Qu.:1.000   1st Qu.:2.000   1st Qu.:1.000  
+ Median :7.000   Mode  :character   Median :1.000   Median :2.000   Median :2.000  
+ Mean   :6.524                      Mean   :2.772   Mean   :1.844   Mean   :1.559  
+ 3rd Qu.:8.000                      3rd Qu.:5.000   3rd Qu.:2.000   3rd Qu.:2.000  
+ Max.   :9.000                      Max.   :8.000   Max.   :2.000   Max.   :2.000  
+                                    NA's   :81                      NA's   :4      
+ Kinderen_text          Risico      Check_interview Gev_sympathie   Gev_medeleven Gev_betrokkenheid
+ Length:576         Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.0   Min.   :1.000    
+ Class :character   1st Qu.:1.000   1st Qu.:1.000   1st Qu.:3.000   1st Qu.:3.0   1st Qu.:3.000    
+ Mode  :character   Median :1.000   Median :1.000   Median :4.000   Median :4.0   Median :4.000    
+                    Mean   :1.425   Mean   :1.042   Mean   :4.035   Mean   :3.9   Mean   :3.619    
+                    3rd Qu.:2.000   3rd Qu.:1.000   3rd Qu.:5.000   3rd Qu.:5.0   3rd Qu.:4.000    
+                    Max.   :2.000   Max.   :2.000   Max.   :5.000   Max.   :5.0   Max.   :5.000    
+                                    NA's   :316     NA's   :316     NA's   :316   NA's   :316      
+   Gev_begrip      Gev_warmte     eigen_schuld   kwets_beschermen belang_voorkomen
+ Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000    Min.   :1.000   
+ 1st Qu.:4.000   1st Qu.:3.000   1st Qu.:1.000   1st Qu.:3.000    1st Qu.:4.000   
+ Median :4.000   Median :4.000   Median :2.000   Median :4.000    Median :4.000   
+ Mean   :4.096   Mean   :3.588   Mean   :2.023   Mean   :3.838    Mean   :4.131   
+ 3rd Qu.:5.000   3rd Qu.:4.000   3rd Qu.:3.000   3rd Qu.:5.000    3rd Qu.:5.000   
+ Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.000    Max.   :5.000   
+ NA's   :316     NA's   :316     NA's   :316     NA's   :316      NA's   :316     
+ bereid_beschermen     SE_1_0          SE_2_0          SE_3_0          SE_4_0          SE_5_0     
+ Min.   :1.000     Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000  
+ 1st Qu.:2.000     1st Qu.:3.000   1st Qu.:4.000   1st Qu.:2.000   1st Qu.:3.000   1st Qu.:1.000  
+ Median :4.000     Median :4.000   Median :5.000   Median :4.000   Median :4.000   Median :4.000  
+ Mean   :3.673     Mean   :3.672   Mean   :4.104   Mean   :3.134   Mean   :3.913   Mean   :3.345  
+ 3rd Qu.:5.000     3rd Qu.:5.000   3rd Qu.:5.000   3rd Qu.:4.000   3rd Qu.:5.000   3rd Qu.:5.000  
+ Max.   :5.000     Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.000  
+ NA's   :316                                                                                      
+     SE_6_0          SE_7_0         INT_1_0         INT_2_0         INT_3_0         INT_4_0     
+ Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000  
+ 1st Qu.:3.000   1st Qu.:3.000   1st Qu.:3.000   1st Qu.:4.000   1st Qu.:2.000   1st Qu.:3.000  
+ Median :4.000   Median :5.000   Median :4.000   Median :5.000   Median :4.000   Median :4.000  
+ Mean   :3.809   Mean   :4.056   Mean   :3.802   Mean   :4.213   Mean   :3.212   Mean   :3.861  
+ 3rd Qu.:5.000   3rd Qu.:5.000   3rd Qu.:5.000   3rd Qu.:5.000   3rd Qu.:5.000   3rd Qu.:5.000  
+ Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.000  
+                                 NA's   :1       NA's   :2                                      
+    INT_5_0         INT_6_0         INT_7_0       Kans_besmet      Kans_ziek      Ernst_besmet  
+ Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000  
+ 1st Qu.:1.000   1st Qu.:2.000   1st Qu.:3.000   1st Qu.:2.000   1st Qu.:1.000   1st Qu.:2.000  
+ Median :4.000   Median :4.000   Median :5.000   Median :3.000   Median :2.000   Median :3.000  
+ Mean   :3.311   Mean   :3.642   Mean   :4.066   Mean   :2.429   Mean   :2.165   Mean   :3.099  
+ 3rd Qu.:5.000   3rd Qu.:5.000   3rd Qu.:5.000   3rd Qu.:3.000   3rd Qu.:3.000   3rd Qu.:4.000  
+ Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.000  
+ NA's   :3                       NA's   :2                                                      
+   RespEff_1      RespEff_2     kwets_groepen_1 kwets_groepen_2 kwets_groepen_3 kwets_groepen_4
+ Min.   :1.00   Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000  
+ 1st Qu.:2.00   1st Qu.:2.000   1st Qu.:3.000   1st Qu.:2.000   1st Qu.:2.000   1st Qu.:4.000  
+ Median :4.00   Median :4.000   Median :4.000   Median :3.000   Median :3.000   Median :5.000  
+ Mean   :3.29   Mean   :3.549   Mean   :3.408   Mean   :2.524   Mean   :2.766   Mean   :4.431  
+ 3rd Qu.:4.00   3rd Qu.:5.000   3rd Qu.:4.000   3rd Qu.:3.000   3rd Qu.:3.000   3rd Qu.:5.000  
+ Max.   :5.00   Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.000  
+                                                                                               
+ kwets_groepen_5     Besmet         Contact      gepercipieerde_compliance  kleinigheid   
+ Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000             Min.   :1.000  
+ 1st Qu.:3.000   1st Qu.:2.000   1st Qu.:2.000   1st Qu.:3.000             1st Qu.:1.000  
+ Median :3.000   Median :4.000   Median :2.000   Median :4.000             Median :1.000  
+ Mean   :3.101   Mean   :3.056   Mean   :2.158   Mean   :3.857             Mean   :1.381  
+ 3rd Qu.:4.000   3rd Qu.:4.000   3rd Qu.:3.000   3rd Qu.:5.000             3rd Qu.:2.000  
+ Max.   :5.000   Max.   :5.000   Max.   :3.000   Max.   :5.000             Max.   :2.000  
+                                                 NA's   :1                 NA's   :400    
+ gegevens_naam      gegevens_straat    gegevens_postcode  gegevens_woonplaats    Serieus     
+ Length:576         Length:576         Length:576         Length:576          Min.   :2.000  
+ Class :character   Class :character   Class :character   Class :character    1st Qu.:5.000  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character    Median :5.000  
+                                                                              Mean   :4.924  
+                                                                              3rd Qu.:5.000  
+                                                                              Max.   :5.000  
+                                                                                             
+     RespC                         RespS                         RespF                    
+ Min.   :2020-05-16 15:46:02   Min.   :2020-05-16 15:46:02   Min.   :2020-05-16 15:50:26  
+ 1st Qu.:2020-05-25 18:35:31   1st Qu.:2020-05-25 18:35:31   1st Qu.:2020-05-25 18:42:00  
+ Median :2020-05-25 23:11:40   Median :2020-05-25 23:11:40   Median :2020-05-25 23:33:32  
+ Mean   :2020-05-25 13:43:32   Mean   :2020-05-25 13:43:32   Mean   :2020-05-25 14:00:49  
+ 3rd Qu.:2020-05-26 16:35:03   3rd Qu.:2020-05-26 16:35:03   3rd Qu.:2020-05-26 16:57:28  
+ Max.   :2020-05-30 22:57:50   Max.   :2020-05-30 22:57:50   Max.   :2020-05-30 23:02:31  
+                                                                                          
+     Gedrag        Gedrag_2_1     Gedrag_2_2      Gedrag_2_3      Gedrag_2_4      Gedrag_2_5   
+ Min.   :1.000   Min.   :1.00   Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000  
+ 1st Qu.:1.000   1st Qu.:3.00   1st Qu.:4.000   1st Qu.:3.000   1st Qu.:4.000   1st Qu.:2.000  
+ Median :1.000   Median :4.00   Median :4.000   Median :4.000   Median :4.000   Median :4.000  
+ Mean   :1.266   Mean   :3.71   Mean   :4.084   Mean   :3.628   Mean   :4.058   Mean   :3.533  
+ 3rd Qu.:2.000   3rd Qu.:4.00   3rd Qu.:5.000   3rd Qu.:4.000   3rd Qu.:5.000   3rd Qu.:5.000  
+ Max.   :2.000   Max.   :5.00   Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :5.000  
+ NA's   :148     NA's   :148    NA's   :148     NA's   :148     NA's   :148     NA's   :148    
+   Gedrag_2_6      Gedrag_2_7        SE_1_1        SE_2_1          SE_3_1          SE_4_1     
+ Min.   :1.000   Min.   :1.000   Min.   :1.0   Min.   :1.000   Min.   :1.000   Min.   :1.000  
+ 1st Qu.:3.000   1st Qu.:3.000   1st Qu.:3.0   1st Qu.:4.000   1st Qu.:2.000   1st Qu.:4.000  
+ Median :4.000   Median :5.000   Median :4.0   Median :5.000   Median :4.000   Median :4.000  
+ Mean   :3.818   Mean   :3.911   Mean   :3.9   Mean   :4.168   Mean   :3.229   Mean   :3.995  
+ 3rd Qu.:5.000   3rd Qu.:5.000   3rd Qu.:5.0   3rd Qu.:5.000   3rd Qu.:4.000   3rd Qu.:5.000  
+ Max.   :5.000   Max.   :5.000   Max.   :5.0   Max.   :5.000   Max.   :5.000   Max.   :5.000  
+ NA's   :148     NA's   :148     NA's   :148   NA's   :148     NA's   :148     NA's   :148    
+     SE_5_1          SE_6_1          SE_7_1       Serieus_1      commentaar       
+ Min.   :1.000   Min.   :1.000   Min.   :1.00   Min.   :1.000   Length:576        
+ 1st Qu.:1.750   1st Qu.:3.000   1st Qu.:3.00   1st Qu.:5.000   Class :character  
+ Median :4.000   Median :4.000   Median :5.00   Median :5.000   Mode  :character  
+ Mean   :3.472   Mean   :3.804   Mean   :4.14   Mean   :4.925                     
+ 3rd Qu.:5.000   3rd Qu.:5.000   3rd Qu.:5.00   3rd Qu.:5.000                     
+ Max.   :5.000   Max.   :5.000   Max.   :5.00   Max.   :5.000                     
+ NA's   :148     NA's   :148     NA's   :148    NA's   :148                       
+ kleinigheid_ontvangen kleinigheid_gedragen   Geslacht_c    Geslacht_recoded Opleiding_recoded
+ Min.   :1.000         Min.   :1.000        Min.   :1.000   Min.   :1.000    Min.   :1.000    
+ 1st Qu.:1.000         1st Qu.:1.000        1st Qu.:1.000   1st Qu.:1.000    1st Qu.:2.000    
+ Median :1.000         Median :2.000        Median :1.000   Median :1.000    Median :3.000    
+ Mean   :1.117         Mean   :1.699        Mean   :1.316   Mean   :1.292    Mean   :2.537    
+ 3rd Qu.:1.000         3rd Qu.:2.000        3rd Qu.:2.000   3rd Qu.:2.000    3rd Qu.:3.000    
+ Max.   :2.000         Max.   :2.000        Max.   :4.000   Max.   :2.000    Max.   :3.000    
+ NA's   :482           NA's   :493                          NA's   :5        NA's   :4        
+ Geboorteland_recoded eigen_schuld_R  group        SE_0           INT_0           KANS_0     
+ Min.   :1.000        Min.   :0.000   1:260   Min.   :1.000   Min.   :1.000   Min.   :1.000  
+ 1st Qu.:1.000        1st Qu.:2.000   2:316   1st Qu.:3.143   1st Qu.:2.857   1st Qu.:1.500  
+ Median :1.000        Median :3.000           Median :4.000   Median :4.000   Median :2.000  
+ Mean   :1.064        Mean   :2.977           Mean   :3.719   Mean   :3.736   Mean   :2.297  
+ 3rd Qu.:1.000        3rd Qu.:4.000           3rd Qu.:4.429   3rd Qu.:4.571   3rd Qu.:3.000  
+ Max.   :2.000        Max.   :4.000           Max.   :5.000   Max.   :5.000   Max.   :5.000  
+                      NA's   :316                             NA's   :8                      
+   VUL_GRP_0          RE_0         FEELINGS_0     STATEMENTS_0   STATEMENTS_0_2   BEHAVIOUR_1   
+ Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :0.750   Min.   :1.000   Min.   :1.000  
+ 1st Qu.:2.800   1st Qu.:2.000   1st Qu.:3.200   1st Qu.:3.000   1st Qu.:3.333   1st Qu.:3.393  
+ Median :3.400   Median :4.000   Median :4.000   Median :3.750   Median :4.000   Median :4.143  
+ Mean   :3.246   Mean   :3.419   Mean   :3.848   Mean   :3.655   Mean   :3.881   Mean   :3.820  
+ 3rd Qu.:3.800   3rd Qu.:4.500   3rd Qu.:4.600   3rd Qu.:4.250   3rd Qu.:4.667   3rd Qu.:4.429  
+ Max.   :5.000   Max.   :5.000   Max.   :5.000   Max.   :4.750   Max.   :5.000   Max.   :5.000  
+                                 NA's   :316     NA's   :316     NA's   :316     NA's   :148    
+      SE_1      
+ Min.   :1.000  
+ 1st Qu.:3.286  
+ Median :4.000  
+ Mean   :3.815  
+ 3rd Qu.:4.429  
+ Max.   :5.000  
+ NA's   :148    

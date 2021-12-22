@@ -1,0 +1,79 @@
+
+--------------------------------------------------------------------------------
+
+EXPERIMENT 2
+
+--------------------------------------------------------------------------------
+
+1. Wash my hands regularly (20 sec.) with soap and water 
+
+2. Always sneezing or coughing in my elbow 
+
+3. Always keep 1.5 meters away from other people 
+
+4. Avoid people who are vulnerable 
+
+5. Work from home as much as possible 
+
+6. Avoid crowds 
+
+7. Use paper tissues 
+
+     variable value n_1 pct_1 n_2 pct_2
+1      Gedrag     1 191 90.09 202 85.96
+2      Gedrag     2  21  9.91  33 14.04
+3      Gedrag    NA  78    NA  67    NA
+4  Gedrag_2_1     1   4  1.89   6  2.55
+5  Gedrag_2_1     2  10  4.72   7  2.98
+6  Gedrag_2_1     3  28 13.21  29 12.34
+7  Gedrag_2_1     4  90 42.45 106 45.11
+8  Gedrag_2_1     5  80 37.74  87 37.02
+9  Gedrag_2_1    NA  78    NA  67    NA
+10 Gedrag_2_2     1   6  2.83   7  2.98
+11 Gedrag_2_2     2   3  1.42   6  2.55
+12 Gedrag_2_2     3  16  7.55  17  7.23
+13 Gedrag_2_2     4  60 28.30  70 29.79
+14 Gedrag_2_2     5 127 59.91 135 57.45
+15 Gedrag_2_2    NA  78    NA  67    NA
+16 Gedrag_2_3     1   4  1.89   2  0.85
+17 Gedrag_2_3     2   5  2.36   7  2.98
+18 Gedrag_2_3     3  35 16.51  31 13.19
+19 Gedrag_2_3     4 108 50.94 140 59.57
+20 Gedrag_2_3     5  60 28.30  55 23.40
+21 Gedrag_2_3    NA  78    NA  67    NA
+22 Gedrag_2_4     1   9  4.25   9  3.83
+23 Gedrag_2_4     2   7  3.30   8  3.40
+24 Gedrag_2_4     3  18  8.49  31 13.19
+25 Gedrag_2_4     4  78 36.79  84 35.74
+26 Gedrag_2_4     5 100 47.17 103 43.83
+27 Gedrag_2_4    NA  78    NA  67    NA
+28 Gedrag_2_5     1  56 26.42  65 27.66
+29 Gedrag_2_5     2   7  3.30   9  3.83
+30 Gedrag_2_5     3  14  6.60  19  8.09
+31 Gedrag_2_5     4  25 11.79  38 16.17
+32 Gedrag_2_5     5 110 51.89 104 44.26
+33 Gedrag_2_5    NA  78    NA  67    NA
+34 Gedrag_2_6     1   6  2.83   6  2.55
+35 Gedrag_2_6     2   4  1.89   3  1.28
+36 Gedrag_2_6     3  21  9.91  31 13.19
+37 Gedrag_2_6     4  83 39.15  83 35.32
+38 Gedrag_2_6     5  98 46.23 112 47.66
+39 Gedrag_2_6    NA  78    NA  67    NA
+40 Gedrag_2_7     1  27 12.74  23  9.79
+41 Gedrag_2_7     2   8  3.77   7  2.98
+42 Gedrag_2_7     3  21  9.91  22  9.36
+43 Gedrag_2_7     4  32 15.09  39 16.60
+44 Gedrag_2_7     5 124 58.49 144 61.28
+45 Gedrag_2_7    NA  78    NA  67    NA
+
+
+ Item summary 
+    variable mean_1 sd_1 mdn_1 iqr25_1 iqr75_1 mean_2 sd_2 mdn_2 iqr25_2 iqr75_2
+1 Gedrag.2.1   4.09 0.93     4       4       5   4.11 0.91     4       4       5
+2 Gedrag.2.2   4.41 0.91     5       4       5   4.36 0.94     5       4       5
+3 Gedrag.2.3   4.01 0.85     4       4       5   4.02 0.75     4       4       4
+4 Gedrag.2.4   4.19 1.02     4       4       5   4.12 1.02     4       4       5
+5 Gedrag.2.5   3.59 1.72     5       1       5   3.46 1.70     4       1       5
+6 Gedrag.2.6   4.24 0.92     4       4       5   4.24 0.91     4       4       5
+7 Gedrag.2.7   4.03 1.41     5       3       5   4.17 1.30     5       4       5
+

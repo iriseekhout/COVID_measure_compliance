@@ -1,0 +1,83 @@
+
+--------------------------------------------------------------------------------
+EXPERIMENT 1
+--------------------------------------------------------------------------------
+Regression coefficients T0 
+         model                          term estimate std.error statistic p.value
+1         SE_0                   (Intercept)     4.22      0.17     25.47    0.00
+2         SE_0             as.factor(group)2    -0.18      0.07     -2.52    0.01
+3         SE_0          as.factor(Geslacht)2    -0.44      0.09     -4.75    0.00
+4         SE_0                      Leeftijd     0.00      0.00      1.08    0.28
+5         SE_0 as.factor(Opleiding_recoded)2    -0.17      0.10     -1.62    0.11
+6         SE_0 as.factor(Opleiding_recoded)3    -0.14      0.10     -1.35    0.18
+7        INT_0                   (Intercept)     4.28      0.19     22.09    0.00
+8        INT_0             as.factor(group)2    -0.21      0.09     -2.48    0.01
+9        INT_0          as.factor(Geslacht)2    -0.47      0.11     -4.34    0.00
+10       INT_0                      Leeftijd     0.00      0.00      0.91    0.36
+11       INT_0 as.factor(Opleiding_recoded)2    -0.15      0.12     -1.24    0.22
+12       INT_0 as.factor(Opleiding_recoded)3    -0.11      0.12     -0.90    0.37
+13      KANS_0                   (Intercept)     2.64      0.21     12.42    0.00
+14      KANS_0             as.factor(group)2    -0.22      0.09     -2.37    0.02
+15      KANS_0          as.factor(Geslacht)2    -0.20      0.12     -1.73    0.08
+16      KANS_0                      Leeftijd     0.00      0.00     -0.62    0.53
+17      KANS_0 as.factor(Opleiding_recoded)2     0.29      0.13      2.20    0.03
+18      KANS_0 as.factor(Opleiding_recoded)3     0.23      0.13      1.69    0.09
+19        PS_0                   (Intercept)     3.33      0.24     13.75    0.00
+20        PS_0             as.factor(group)2    -0.39      0.11     -3.65    0.00
+21        PS_0          as.factor(Geslacht)2    -0.41      0.13     -3.07    0.00
+22        PS_0                      Leeftijd     0.02      0.00      4.28    0.00
+23        PS_0 as.factor(Opleiding_recoded)2    -0.18      0.15     -1.20    0.23
+24        PS_0 as.factor(Opleiding_recoded)3    -0.40      0.15     -2.61    0.01
+25        PV_0                   (Intercept)     3.32      0.15     21.72    0.00
+26        PV_0             as.factor(group)2    -0.19      0.07     -2.78    0.01
+27        PV_0          as.factor(Geslacht)2    -0.24      0.08     -2.80    0.01
+28        PV_0                      Leeftijd     0.01      0.00      2.45    0.01
+29        PV_0 as.factor(Opleiding_recoded)2     0.09      0.10      0.92    0.36
+30        PV_0 as.factor(Opleiding_recoded)3     0.02      0.10      0.24    0.81
+31        PC_0                   (Intercept)     3.70      0.21     17.72    0.00
+32        PC_0             as.factor(group)2    -0.22      0.09     -2.45    0.01
+33        PC_0          as.factor(Geslacht)2    -0.10      0.12     -0.84    0.40
+34        PC_0                      Leeftijd     0.01      0.00      1.73    0.08
+35        PC_0 as.factor(Opleiding_recoded)2     0.20      0.13      1.54    0.12
+36        PC_0 as.factor(Opleiding_recoded)3     0.15      0.13      1.15    0.25
+37        RE_0                   (Intercept)     4.01      0.25     16.26    0.00
+38        RE_0             as.factor(group)2    -0.13      0.11     -1.22    0.22
+39        RE_0          as.factor(Geslacht)2    -0.35      0.14     -2.58    0.01
+40        RE_0                      Leeftijd     0.00      0.00      0.21    0.83
+41        RE_0 as.factor(Opleiding_recoded)2    -0.09      0.15     -0.60    0.55
+42        RE_0 as.factor(Opleiding_recoded)3    -0.10      0.16     -0.64    0.52
+43 BEHAVIOUR_1                   (Intercept)     4.15      0.19     21.46    0.00
+44 BEHAVIOUR_1             as.factor(group)2    -0.11      0.08     -1.29    0.20
+45 BEHAVIOUR_1          as.factor(Geslacht)2    -0.44      0.10     -4.28    0.00
+46 BEHAVIOUR_1                      Leeftijd     0.00      0.00      0.52    0.61
+47 BEHAVIOUR_1 as.factor(Opleiding_recoded)2    -0.18      0.12     -1.47    0.14
+48 BEHAVIOUR_1 as.factor(Opleiding_recoded)3    -0.12      0.12     -0.99    0.32
+49        SE_1                   (Intercept)     4.13      0.20     20.40    0.00
+50        SE_1             as.factor(group)2    -0.08      0.09     -0.95    0.34
+51        SE_1          as.factor(Geslacht)2    -0.57      0.11     -5.27    0.00
+52        SE_1                      Leeftijd     0.00      0.00      1.50    0.14
+53        SE_1 as.factor(Opleiding_recoded)2    -0.21      0.13     -1.62    0.11
+54        SE_1 as.factor(Opleiding_recoded)3    -0.20      0.13     -1.51    0.13
+
+ R^2 and Cohen's f^2 
+         model R^2  r.squared         f^2
+1         SE_0  AB 0.07777231 0.015229860
+2         SE_0   A 0.06372691          NA
+3        INT_0  AB 0.06661960 0.015020281
+4        INT_0   A 0.05259996          NA
+5       KANS_0  AB 0.03653915 0.013437902
+6       KANS_0   A 0.02359226          NA
+7         PS_0  AB 0.12574312 0.031954315
+8         PS_0   A 0.09780684          NA
+9         PV_0  AB 0.05571518 0.018513196
+10        PV_0   A 0.03823345          NA
+11        PC_0  AB 0.02815201 0.014338231
+12        PC_0   A 0.01421743          NA
+13        RE_0  AB 0.02181610 0.003563258
+14        RE_0   A 0.01833058          NA
+15 BEHAVIOUR_1  AB 0.06718927 0.005000199
+16 BEHAVIOUR_1   A 0.06252503          NA
+17        SE_1  AB 0.09680793 0.002724347
+18        SE_1   A 0.09434732          NA
+
+f^2 = (R^2ab - R^2a)/(1-R^2ab)

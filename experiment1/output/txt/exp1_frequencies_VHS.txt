@@ -1,0 +1,117 @@
+
+--------------------------------------------------------------------------------
+EXPERIMENT 1
+--------------------------------------------------------------------------------
+
+1. When I am in the supermarket and I have less than 1.5 meters to pass someone 
+
+2. When there is less than 1.5 meters of space when walking 
+
+3. When someone gets too close 
+
+4. When I see / notice that someone needs a hug 
+
+5. When I miss going out for days 
+
+6. When I have a special occasion, such as a birthday or holiday 
+
+7. When I feel alone or lonely 
+
+8. When I need a hug 
+
+9. When someone is suddenly at the door 
+
+10. When I feel lonely and need to see friends or family 
+
+11. When I don't have soap in the house 
+
+12. When I forget to wash my hands 
+
+13. When family members (grandma, grandpa, mother, father) feel lonely and ask if I come by 
+
+   group     name value   n   pct
+1      1    VHS_1     0  76 41.99
+2      1    VHS_1     1 105 58.01
+3      1  VHS_1_1     1  40 38.10
+4      1  VHS_1_1     2  46 43.81
+5      1  VHS_1_1     3   1  0.95
+6      1  VHS_1_1     4   3  2.86
+7      1  VHS_1_1     5  15 14.29
+8      1  VHS_1_1    NA  76    NA
+9      1    VHS_2     0 148 81.77
+10     1    VHS_2     1  33 18.23
+11     1  VHS_2_1     1   2  6.06
+12     1  VHS_2_1     2  25 75.76
+13     1  VHS_2_1     4   1  3.03
+14     1  VHS_2_1     5   5 15.15
+15     1  VHS_2_1    NA 148    NA
+16     1    VHS_3     0 106 58.56
+17     1    VHS_3     1  75 41.44
+18     1  VHS_3_1     1  43 57.33
+19     1  VHS_3_1     2  17 22.67
+20     1  VHS_3_1     3  15 20.00
+21     1  VHS_3_1    NA 106    NA
+22     1    VHS_4     0 111 61.33
+23     1    VHS_4     1  70 38.67
+24     1  VHS_4_1     1  21 30.43
+25     1  VHS_4_1     2  37 53.62
+26     1  VHS_4_1     3  11 15.94
+27     1  VHS_4_1    NA 112    NA
+28     1    VHS_5     0 137 75.69
+29     1    VHS_5     1  44 24.31
+30     1  VHS_5_1     1   4  9.09
+31     1  VHS_5_1     2   4  9.09
+32     1  VHS_5_1     3  30 68.18
+33     1  VHS_5_1     4   6 13.64
+34     1  VHS_5_1    NA 137    NA
+35     1    VHS_6     0 108 59.67
+36     1    VHS_6     1  73 40.33
+37     1  VHS_6_1     1  29 40.85
+38     1  VHS_6_1     2  27 38.03
+39     1  VHS_6_1     3   4  5.63
+40     1  VHS_6_1     4  11 15.49
+41     1  VHS_6_1    NA 110    NA
+42     1    VHS_7     0 119 65.75
+43     1    VHS_7     1  62 34.25
+44     1  VHS_7_1     2  32 52.46
+45     1  VHS_7_1     3   4  6.56
+46     1  VHS_7_1     4  20 32.79
+47     1  VHS_7_1     5   5  8.20
+48     1  VHS_7_1    NA 120    NA
+49     1    VHS_8     0 146 80.66
+50     1    VHS_8     1  35 19.34
+51     1  VHS_8_1     1  19 55.88
+52     1  VHS_8_1     2   3  8.82
+53     1  VHS_8_1     3  12 35.29
+54     1  VHS_8_1    NA 147    NA
+55     1    VHS_9     0 130 71.82
+56     1    VHS_9     1  51 28.18
+57     1  VHS_9_1     2   1  1.96
+58     1  VHS_9_1     3   6 11.76
+59     1  VHS_9_1     4  44 86.27
+60     1  VHS_9_1    NA 130    NA
+61     1   VHS_10     0 107 59.12
+62     1   VHS_10     1  74 40.88
+63     1 VHS_10_1     1  23 31.08
+64     1 VHS_10_1     2   3  4.05
+65     1 VHS_10_1     3  10 13.51
+66     1 VHS_10_1     4  38 51.35
+67     1 VHS_10_1    NA 107    NA
+68     1   VHS_11     0 163 90.06
+69     1   VHS_11     1  18  9.94
+70     1 VHS_11_1     1  12 66.67
+71     1 VHS_11_1     2   6 33.33
+72     1 VHS_11_1    NA 163    NA
+73     1   VHS_12     0 114 62.98
+74     1   VHS_12     1  67 37.02
+75     1 VHS_12_1     1   3  4.55
+76     1 VHS_12_1     2   8 12.12
+77     1 VHS_12_1     3  55 83.33
+78     1 VHS_12_1    NA 115    NA
+79     1   VHS_13     0  79 43.65
+80     1   VHS_13     1 102 56.35
+81     1 VHS_13_1     1   6  5.88
+82     1 VHS_13_1     2  33 32.35
+83     1 VHS_13_1     3   1  0.98
+84     1 VHS_13_1     4  62 60.78
+85     1 VHS_13_1    NA  79    NA

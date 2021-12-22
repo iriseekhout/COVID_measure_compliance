@@ -1,16 +1,15 @@
-# COVID measure compliance
- 
-Data and analyses regarding the study on the compliance with COVID measures
-
+---
+title: "Readme"
+output: pdf_document
+---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(eval = FALSE, include = TRUE)
 library(dplyr)
 ```
 
-In this README, the steps of data preparations, cleaning and analyses for each experiment in the study are described step by step. This study holds three experiments where similar steps and data analyses are used. Nevertheless, we describe each experiment separately. All data preparations and cleanings are performed in R statistical software. The code below works directly from the `Rproject` directory. But the R-files can also used manually. The data are stored in excel files. 
 
-The current file is executive, whereas the `memo.pdf` file describes the separate files more descriptively.
+In this readme file, the steps of data preparations, cleaning and analyses for each experiment in the study are described step by step. This study holds three experiments where similar steps and data analyses are used. Nevertheless, we describe each experiment separately. All data preparations and cleanings are performed in R statistical software. The code below works directly from the `Rproject` directory. But the R-files can also used manually. The data are stored in excel files. 
 
 ## Experiment 1
 

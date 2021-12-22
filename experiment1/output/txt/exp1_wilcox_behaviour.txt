@@ -1,0 +1,43 @@
+
+--------------------------------------------------------------------------------
+EXPERIMENT 1
+--------------------------------------------------------------------------------
+
+1. Wash my hands regularly (20 sec.) with soap and water 
+
+2. Always sneezing or coughing in my elbow 
+
+3. Always keep 1.5 meters away from other people 
+
+4. Avoid people who are vulnerable 
+
+5. Stay at home as much as possible 
+
+6. Receive as little visitors as possible 
+
+7. Use paper tissues 
+
+8. working from home as much as possible 
+
+9. Avoid crowds 
+
+     variable      estimate statistic p.value      conf.low    conf.high
+1 behaviour_1  4.030785e-05   15755.0    0.06 -4.389661e-05 1.690039e-05
+2 behaviour_2  4.134909e-05   15885.0    0.03  3.676419e-05 2.678669e-05
+3 behaviour_3  2.901604e-05   14883.0    0.37 -1.100219e-05 4.124205e-05
+4 behaviour_4  2.706579e-05   14992.0    0.31 -5.629239e-05 3.069555e-05
+5 behaviour_5  4.522227e-05   16237.5    0.01  4.318748e-05 2.435588e-05
+6 behaviour_6  1.317242e-05   16637.5    0.00  1.653782e-05 9.999570e-01
+7 behaviour_7  7.841275e-05   14707.5    0.48 -1.650299e-05 5.021101e-05
+8 behaviour_8 -9.719175e-06   13096.5    0.21 -1.598279e-05 7.732030e-05
+9 behaviour_9  1.666636e-05   16630.5    0.00  4.287878e-05 3.388105e-05
+                                             method alternative
+1 Wilcoxon rank sum test with continuity correction   two.sided
+2 Wilcoxon rank sum test with continuity correction   two.sided
+3 Wilcoxon rank sum test with continuity correction   two.sided
+4 Wilcoxon rank sum test with continuity correction   two.sided
+5 Wilcoxon rank sum test with continuity correction   two.sided
+6 Wilcoxon rank sum test with continuity correction   two.sided
+7 Wilcoxon rank sum test with continuity correction   two.sided
+8 Wilcoxon rank sum test with continuity correction   two.sided
+9 Wilcoxon rank sum test with continuity correction   two.sided
