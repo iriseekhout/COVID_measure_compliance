@@ -169,6 +169,8 @@ regression_output_f2
 cat("\n")
 cat("f^2 = (R^2ab - R^2a)/(1-R^2ab)")
 
+cat("Regression additional by age \n")
+regression_lftint
 
 
 sink()
@@ -176,7 +178,7 @@ sink()
 
 
 save(
-  list = c("regression_output", "regression_output_f2"),
+  list = c("regression_output", "regression_output_f2", "regression_lftint"),
   file = here("experiment3", "output", "rdata", "exp3_regression_models.rdata")
 )
 

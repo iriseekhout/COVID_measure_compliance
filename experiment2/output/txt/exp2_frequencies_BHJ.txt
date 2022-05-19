@@ -66,3 +66,27 @@ helpful
 40      helpful     5   6  2.07
 41      helpful     6  45 15.52
 42      helpful    NA 302    NA
+Additional analysis comparing age groups# A tibble: 21 x 5
+   variable     value `age<=38` `age>38` pvalue
+   <chr>        <dbl>     <int>    <int>  <dbl>
+ 1 helpful          1        44       32 0.143 
+ 2 helpful          2        10        3 0.143 
+ 3 helpful          3        64       63 0.143 
+ 4 helpful          4        11       12 0.143 
+ 5 helpful          5         1        5 0.143 
+ 6 helpful          6        27       18 0.143 
+ 7 helpful         NA       158      144 0.143 
+ 8 recognisable     1        16        8 0.0510
+ 9 recognisable     2        15        8 0.0510
+10 recognisable     3         8       18 0.0510
+11 recognisable     4        61       46 0.0510
+12 recognisable     5        30       35 0.0510
+13 recognisable     6        27       18 0.0510
+14 recognisable    NA       158      144 0.0510
+15 relevance        1        12        6 0.136 
+16 relevance        2        17       17 0.136 
+17 relevance        3        22       14 0.136 
+18 relevance        4        44       29 0.136 
+19 relevance        5        37       50 0.136 
+20 relevance        6        25       17 0.136 
+21 relevance       NA       158      144 0.136 

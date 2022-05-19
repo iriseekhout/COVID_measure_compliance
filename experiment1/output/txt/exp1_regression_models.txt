@@ -80,4 +80,28 @@ Regression coefficients T0
 17        SE_1  AB 0.09680793 0.002724347
 18        SE_1   A 0.09434732          NA
 
-f^2 = (R^2ab - R^2a)/(1-R^2ab)
+f^2 = (R^2ab - R^2a)/(1-R^2ab)Regression additional by age 
+# A tibble: 21 x 6
+   model       term                          estimate std.error statistic p.value
+   <chr>       <chr>                            <dbl>     <dbl>     <dbl>   <dbl>
+ 1 intentie_T0 (Intercept)                       4.37      0.13     33.5     0   
+ 2 intentie_T0 as.factor(group)2                -0.17      0.12     -1.44    0.15
+ 3 intentie_T0 lft_gr                            0.1       0.13      0.81    0.42
+ 4 intentie_T0 as.factor(Geslacht)2             -0.46      0.11     -4.31    0   
+ 5 intentie_T0 as.factor(Opleiding_recoded)2    -0.16      0.12     -1.37    0.17
+ 6 intentie_T0 as.factor(Opleiding_recoded)3    -0.13      0.12     -1.06    0.29
+ 7 intentie_T0 as.factor(group)2:lft_gr         -0.09      0.17     -0.54    0.59
+ 8 behavior_T1 (Intercept)                       4.25      0.13     32.8     0   
+ 9 behavior_T1 as.factor(group)2                -0.18      0.11     -1.56    0.12
+10 behavior_T1 lft_gr                           -0.05      0.12     -0.42    0.68
+11 behavior_T1 as.factor(Geslacht)2             -0.44      0.1      -4.25    0   
+12 behavior_T1 as.factor(Opleiding_recoded)2    -0.18      0.12     -1.49    0.14
+13 behavior_T1 as.factor(Opleiding_recoded)3    -0.13      0.12     -1.03    0.31
+14 behavior_T1 as.factor(group)2:lft_gr          0.15      0.16      0.92    0.36
+15 selfeffi_T1 (Intercept)                       4.29      0.14     31.7     0   
+16 selfeffi_T1 as.factor(group)2                -0.09      0.12     -0.76    0.45
+17 selfeffi_T1 lft_gr                            0.13      0.13      1.02    0.31
+18 selfeffi_T1 as.factor(Geslacht)2             -0.57      0.11     -5.27    0   
+19 selfeffi_T1 as.factor(Opleiding_recoded)2    -0.23      0.13     -1.77    0.08
+20 selfeffi_T1 as.factor(Opleiding_recoded)3    -0.21      0.13     -1.64    0.1 
+21 selfeffi_T1 as.factor(group)2:lft_gr          0.03      0.17      0.15    0.88

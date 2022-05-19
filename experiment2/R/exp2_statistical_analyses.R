@@ -897,6 +897,70 @@ BHJ_n <- dataset %>%
     .groups = "drop"
   )
 
+BHJ_n_lft1 <- dataset %>%
+  mutate(
+    lft_gr = ifelse(Leeftijd <= 38, "age<=38", "age>38"),
+    relevance = Relevant,
+    recognisable = Herkenbaar,
+    helpful = Behulpzaam
+  ) %>%
+  select(
+    lft_gr,
+    relevance, recognisable, helpful
+  ) %>%
+  pivot_longer(
+    .,
+    cols = c(everything(), -lft_gr),
+    names_to = "variable"
+  ) %>%
+  group_by(lft_gr, variable, value) %>%
+  summarise(
+    n = n(),
+    .groups = "drop"
+  ) %>%
+  drop_na(value) %>%
+  group_by(variable) %>%
+  nest() %>%
+  mutate(M = map(data, function(dat){
+    dat2 <- dat %>%
+      pivot_wider(id_cols = lft_gr, names_from = value, values_from = n, values_fill = 0)
+    M <- as.matrix(dat2[,-1])
+    row.names(M) <- dat2$lft_gr
+    return(M)}))
+
+
+chisp <- BHJ_n_lft1 %>%
+  mutate(pvalue = map_dbl(M, ~chisq.test(.x)$p.value)) %>%
+  select(-data, -M) %>%
+  ungroup()
+
+BHJ_n_lft <- dataset %>%
+  mutate(
+    lft_gr = ifelse(Leeftijd <= 38, "age<=38", "age>38"),
+    relevance = Relevant,
+    recognisable = Herkenbaar,
+    helpful = Behulpzaam
+  ) %>%
+  select(
+    lft_gr,
+    relevance, recognisable, helpful
+  ) %>%
+  pivot_longer(
+    .,
+    cols = c(everything(), -lft_gr),
+    names_to = "variable"
+  ) %>%
+  group_by(lft_gr, variable, value) %>%
+  summarise(
+    n = n(),
+    .groups = "drop"
+  )%>%
+  pivot_wider(
+    id_cols = c(variable, value),
+    names_from = lft_gr,
+    values_from = c(n)
+  ) %>%
+  left_join(chisp)
 
 
 # pct

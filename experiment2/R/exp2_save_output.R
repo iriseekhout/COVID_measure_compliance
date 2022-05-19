@@ -279,13 +279,15 @@ helpful \n
 )
 BHJ_categorical
 
+cat("Additional analysis comparing age groups")
+BHJ_n_lft
 
 sink()
 
 
 
 save(
-  list = c("BHJ_categorical"),
+  list = c("BHJ_categorical", "BHJ_n_lft"),
   file = here("experiment2", "output", "rdata", "exp2_frequencies_BHJ.rdata")
 )
 

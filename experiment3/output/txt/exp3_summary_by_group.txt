@@ -15,10 +15,10 @@ CONTINUOUS VARIABLES
 2     2      age 316 38.86 10.57  37    33    41
 
 
-   estimate estimate1 estimate2 statistic   p.value parameter  conf.low conf.high            method
-1 0.7815482  39.64231  38.86076 0.8504861 0.3954095       574 -1.023353  2.586449 Two Sample t-test
-  alternative
-1   two.sided
+   estimate estimate1 estimate2 statistic   p.value parameter  conf.low conf.high
+1 0.7815482  39.64231  38.86076 0.8504861 0.3954095       574 -1.023353  2.586449
+             method alternative
+1 Two Sample t-test   two.sided
 
 
 
@@ -76,6 +76,9 @@ CATEGORICAL VARIABLES
 7                    Pearson's Chi-squared test with Yates' continuity correction
 
 
-   variable statistic p.value                                            method alternative
-1 education   40635.5   0.952 Wilcoxon rank sum test with continuity correction   two.sided
-2   serious   40804.5   0.748 Wilcoxon rank sum test with continuity correction   two.sided
+   variable statistic p.value                                            method
+1 education   40635.5   0.952 Wilcoxon rank sum test with continuity correction
+2   serious   40804.5   0.748 Wilcoxon rank sum test with continuity correction
+  alternative
+1   two.sided
+2   two.sided

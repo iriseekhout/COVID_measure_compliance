@@ -12,8 +12,10 @@ Call: psych::alpha(x = .)
   raw_alpha std.alpha G6(smc) average_r S/N   ase mean   sd median_r
       0.71      0.73    0.73      0.28 2.7 0.019    4 0.75     0.29
 
- lower alpha upper     95% confidence boundaries
-0.67 0.71 0.74 
+    95% confidence boundaries 
+         lower alpha upper
+Feldt     0.67  0.71  0.74
+Duhachek  0.67  0.71  0.74
 
  Reliability if an item is dropped:
        raw_alpha std.alpha G6(smc) average_r S/N alpha se var.r med.r
@@ -53,8 +55,10 @@ Call: psych::alpha(x = .)
   raw_alpha std.alpha G6(smc) average_r S/N   ase mean   sd median_r
        0.8      0.82    0.82      0.39 4.4 0.013    4 0.86     0.41
 
- lower alpha upper     95% confidence boundaries
-0.78 0.8 0.82 
+    95% confidence boundaries 
+         lower alpha upper
+Feldt     0.77   0.8  0.82
+Duhachek  0.78   0.8  0.82
 
  Reliability if an item is dropped:
         raw_alpha std.alpha G6(smc) average_r S/N alpha se var.r med.r
@@ -98,8 +102,10 @@ Call: psych::alpha(x = .)
   raw_alpha std.alpha G6(smc) average_r S/N   ase mean   sd median_r
       0.82      0.81     0.8      0.47 4.4 0.012  3.4 0.73     0.48
 
- lower alpha upper     95% confidence boundaries
-0.79 0.82 0.84 
+    95% confidence boundaries 
+         lower alpha upper
+Feldt     0.79  0.82  0.84
+Duhachek  0.79  0.82  0.84
 
  Reliability if an item is dropped:
                 raw_alpha std.alpha G6(smc) average_r S/N alpha se  var.r med.r
@@ -137,8 +143,10 @@ Call: psych::alpha(x = .)
   raw_alpha std.alpha G6(smc) average_r S/N   ase mean   sd median_r
        0.7      0.76    0.75      0.31 3.1 0.019  4.1 0.68     0.34
 
- lower alpha upper     95% confidence boundaries
-0.66 0.7 0.74 
+    95% confidence boundaries 
+         lower alpha upper
+Feldt     0.66   0.7  0.74
+Duhachek  0.66   0.7  0.74
 
  Reliability if an item is dropped:
            raw_alpha std.alpha G6(smc) average_r S/N alpha se  var.r med.r
@@ -178,8 +186,10 @@ Call: psych::alpha(x = .)
   raw_alpha std.alpha G6(smc) average_r S/N   ase mean   sd median_r
       0.72      0.75    0.76       0.3   3 0.018    4 0.73     0.31
 
- lower alpha upper     95% confidence boundaries
-0.68 0.72 0.75 
+    95% confidence boundaries 
+         lower alpha upper
+Feldt     0.68  0.72  0.75
+Duhachek  0.68  0.72  0.75
 
  Reliability if an item is dropped:
        raw_alpha std.alpha G6(smc) average_r S/N alpha se var.r med.r

@@ -465,7 +465,9 @@ CohenF2(
   R2a = .30
 ) # .2727
 
-
+reg_dataset <-
+  dataset %>%
+  mutate(lft_gr = ifelse(Leeftijd <= 38, 0, 1))
 
 # self efficacy T0
 m1_SE_0 <- lm(
@@ -610,6 +612,21 @@ qqnorm(m1_SE_1$residuals)
 qqline(m1_SE_1$residuals)
 
 
+## additional interactie leeftijd
+m1_INT_0_lftint <- lm(
+  formula = INT_0 ~ as.factor(group)*lft_gr + as.factor(Geslacht_recoded) + as.factor(Opleiding_recoded),
+  data = reg_dataset
+)
+
+m1_BEHAVIOUR_1_lftint <- lm(
+  formula = BEHAVIOUR_1 ~ as.factor(group)*lft_gr + as.factor(Geslacht_recoded) + as.factor(Opleiding_recoded),
+  data = reg_dataset
+)
+
+m1_SE_1_lftint <- lm(
+  formula = SE_1 ~ as.factor(group)*lft_gr + as.factor(Geslacht_recoded) + as.factor(Opleiding_recoded),
+  data = reg_dataset
+)
 
 # tidy regression output
 regression_models <- list(
@@ -629,6 +646,11 @@ regression_models <- list(
 )
 
 
+regr_models_lft <-
+  list(intentie_T0 = m1_INT_0_lftint,
+       behavior_T1 = m1_BEHAVIOUR_1_lftint,
+       selfeffi_T1 = m1_SE_1_lftint
+  )
 
 regression_output <- regression_models %>%
   purrr::map_df(
@@ -676,6 +698,18 @@ regression_output_f2 <- regression_models %>%
   as.data.frame() %>%
   print()
 
+regression_lftint <- regr_models_lft %>%
+  purrr::map_df(
+    .,
+    broom::tidy,
+    .id = "model"
+  ) %>%
+  mutate(
+    estimate = round(estimate, 2),
+    std.error = round(std.error, 2),
+    statistic = round(statistic, 2),
+    p.value = round(p.value, 2)
+  )
 
 
 # 6. Frequencies preventive behaviour ------------------------------------------
